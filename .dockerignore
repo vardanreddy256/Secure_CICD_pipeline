@@ -1,0 +1,30 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Environment & Secrets
+.env
+*.env
+
+# Dev files
+requirements-dev.txt
+test_*.py
+pyproject.toml
+*.md
+docker-compose.yml
+
+# Reports
+coverage.xml
+bandit-report.json
+.coverage
+
+# OS
+.DS_Store
+Thumbs.db

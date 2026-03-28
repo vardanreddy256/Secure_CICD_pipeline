@@ -1,0 +1,9 @@
+[tool.pytest.ini_options]
+testpaths = ["."]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[tool.bandit]
+exclude_dirs = ["venv", ".git", "__pycache__"]
+skips = []
